@@ -6,9 +6,9 @@ import { CountryCall } from '../networking/apiGet';
 export const InfoBox = (props) => {
     return (
         <Marker position={props.position}>
-            <Popup style ="overflow: scrollbar">
-                <h1>{props.name}</h1>
+            <Popup>
                 <CountryCall />
+                <h1>{props.name}</h1>
             </Popup>
         </Marker>
     );
