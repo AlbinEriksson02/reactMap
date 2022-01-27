@@ -192,7 +192,7 @@ export const countryCoords = [
     {position: [	-9.64571	,	160.156194	], name: '	Solomon Islands	'}, 
     {position: [	-4.679574	,	55.491977	], name: '	Seychelles	'}, 
     {position: [	12.862807	,	30.217636	], name: '	Sudan	'}, 
-    {position: [	60.128161	,	18.643501	], name: '	Sweden	'}, 
+    {position: [	59.862482	,	15.2586278	], name: '	Sweden	'}, 
     {position: [	1.352083	,	103.819836	], name: '	Singapore	'}, 
     {position: [	-24.143474	,	-10.030696	], name: '	Saint Helena	'}, 
     {position: [	46.151241	,	14.995463	], name: '	Slovenia	'}, 
