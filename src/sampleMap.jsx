@@ -7,11 +7,11 @@ export const SampleMap = () => {
 
   return (
     <div style={{background: 'black' }}>
-      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true}>
+      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} bounds>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-
+          noWrap="true"
           
         />
         {
