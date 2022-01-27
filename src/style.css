@@ -1,7 +1,5 @@
-h1,
-p {
-  font-family: Lato;
-}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Work+Sans:wght@300&display=swap');
+
 
 .leaflet-container {
   height: 100vh;
@@ -18,7 +16,7 @@ html{
 body{
   margin: 0px;
 }
-/* 
-This img style is breaking leaflet
-Need to scope it to a specific element
-*/
+h1{
+  font-size:2.5rem;
+  font-family: 'Open Sans', sans-serif;;
+}
