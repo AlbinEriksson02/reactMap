@@ -5,9 +5,13 @@ import { countryCoords } from './assets/CountryCoords'
 
 export const SampleMap = () => {
 
+  var southWest = L.latLng(-240, 240),
+    northEast = L.latLng(240, -240),
+    bounds = L.latLngBounds(southWest, northEast);
+
   return (
     <div style={{background: 'black' }}>
-      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} bounds>
+      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} maxBounds={bounds}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
