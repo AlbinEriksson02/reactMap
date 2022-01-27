@@ -7,7 +7,7 @@ export const InfoBox = (props) => {
     return (
         <Marker position={props.position}>
             <Popup>
-                <CountryCall />
+
                 <h1>{props.name}</h1>
             </Popup>
         </Marker>

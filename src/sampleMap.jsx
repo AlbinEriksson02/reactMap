@@ -18,7 +18,6 @@ export const SampleMap = () => {
           countryCoords.map((marker) => (
             <InfoBox position={marker.position} name={marker.name} key={marker.name}/>
           ))
-          
         }
       </MapContainer>
     </div>
