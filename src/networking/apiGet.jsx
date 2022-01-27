@@ -12,8 +12,6 @@ export class CountryCall extends React.Component {
         };
     }
     
-    // ComponentDidMount is used to
-    // execute the code 
     componentDidMount() {
         fetch(
 "https://restcountries.com/v2/all?fields=name")
