@@ -40,7 +40,7 @@ export const countryCoords = [
     {position: [	6.611111	,	20.939444	], name: '	Central African Republic	'}, 
     {position: [	-0.228021	,	15.827659	], name: '	Congo [Republic]	'}, 
     {position: [	46.818188	,	8.227512	], name: '	Switzerland	'}, 
-    {position: [	7.539989	,	-5.54708	], name: '	Côte d Ivoire	'}, 
+    {position: [	7.539989	,	-5.54708	], name: "	Côte d' Ivoire	"}, // Its name caused error so changed from ' to "
     {position: [	-21.236736	,	-159.777671	], name: '	Cook Islands	'}, 
     {position: [	-35.675147	,	-71.542969	], name: '	Chile	'}, 
     {position: [	7.369722	,	12.354722	], name: '	Cameroon	'}, 
