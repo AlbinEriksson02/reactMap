@@ -10,12 +10,11 @@ export const SampleMap = () => {
     bounds = L.latLngBounds(southWest, northEast);
 
   return (
-    <div style={{background: 'black' }}>
-      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} maxBounds={bounds}>
+    <div>
+      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} maxBounds={bounds} style={{background:  'linear-gradient(0deg, rgba(242,239,233,1) 50%, rgba(170,211,223,1) 50%)' }}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          
         />
         {
           countryCoords.map((marker) => (
