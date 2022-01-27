@@ -11,7 +11,7 @@ export const SampleMap = () => {
 
   return (
     <div>
-      <MapContainer center={countryCoords[0].position} zoom={3} scrollWheelZoom={true} minZoom={3} maxBounds={bounds} style={{background:  'linear-gradient(0deg, rgba(242,239,233,1) 50%, rgba(170,211,223,1) 50%)' }}>
+      <MapContainer center={countryCoords[0].position} zoom={5} scrollWheelZoom={true} minZoom={4} maxBounds={bounds} style={{background:  'linear-gradient(0deg, rgba(242,239,233,1) 50%, rgba(170,211,223,1) 50%)' }}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
