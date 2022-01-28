@@ -9,7 +9,7 @@ export const SampleMap = () => {
     bounds = L.latLngBounds(southWest, northEast);
   return (
     <div>
-      <MapContainer center={countryCoords[0].position} zoom={4} scrollWheelZoom={true} minZoom={3} maxBounds={bounds} style={{background:  'linear-gradient(0deg, rgba(242,239,233,1) 50%, rgba(170,211,223,1) 50%)' }}>
+      <MapContainer center={countryCoords[0].position} zoom={4} scrollWheelZoom={true} minZoom={3} maxBounds={bounds} style={{background:  'linear-gradient(0deg, rgba(242,239,233,1) 50%, rgba(170,211,223,1) 50%)', position:'absolute', right:'0px' }}>
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
