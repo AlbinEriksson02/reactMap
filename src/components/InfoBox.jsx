@@ -1,6 +1,6 @@
 import { Popup, Marker } from 'react-leaflet';
 import React from 'react';
-import '.././style.css';
+import '../assets/style.css';
 
 export const InfoBox = (props) => {
     return (

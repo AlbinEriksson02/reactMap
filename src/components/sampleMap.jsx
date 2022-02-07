@@ -1,7 +1,7 @@
 import React from 'react';
 import { MapContainer, TileLayer} from 'react-leaflet';
-import { InfoBox } from './components/InfoBox'
-import { countryCoords } from './assets/CountryCoords'
+import { InfoBox } from './InfoBox'
+import { countryCoords } from '../assets/CountryCoords'
 
 export const SampleMap = () => {
   var southWest = L.latLng(-240, 240),

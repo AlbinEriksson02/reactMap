@@ -1,10 +1,11 @@
+import { style } from 'd3';
 import React from 'react';
-
+import '../assets/style.css';
 
 export const Menu = () => {
     return (
         <>
-            <div style={{height: '100vh', width:'30vh', background:'black', color:'white', fontSize:'4rem',display:'flex', justifyContent:'center'}} >
+            <div className={style.header} >
                 <p>Map of Earth</p>
             </div>
         </>
